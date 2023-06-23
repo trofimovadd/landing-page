@@ -4,12 +4,28 @@ body {
 
 .intro {
     background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 200px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+ul {
+    display: flex;
+    gap: 20px;
 }
 
 .header__logo {
     color: #F9FAF8;
     font-size: 24px;
-    font-weight: 800;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
 }
 
 li {
@@ -21,6 +37,16 @@ a {
     color: #E5E7EB;
     font-size: 18px;
     font-weight: 100;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.info__content {
+    width: 500px;
 }
 
 .info__title {
@@ -35,9 +61,21 @@ a {
     font-weight: 100;
 }
 
+.info__img img {
+    width: 500px;
+}
+
 .sign__up {
     background-color: #3882F6;
-    color: #F9FAF8; 
+    color: #F9FAF8;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 8px;
+    margin: 10px 0;
+}
+
+.sign__up--border {
+    border: 2px solid #F9FAF8;
 }
 
 .cards__title {
