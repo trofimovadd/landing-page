@@ -71,6 +71,7 @@ a {
 .sign__up {
     background-color: #3882F6;
     color: #F9FAF8;
+    font-size: 16px;
     border: none;
     padding: 5px 20px;
     border-radius: 8px;
@@ -147,8 +148,24 @@ a {
     align-self: flex-end;
 }
 
+
+/* sign up */
 .signup__container {
     background-color: #3882F6;
+    padding: 50px 100px;
+    margin: 100px 200px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.signup__title {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.signup__text {
     color: #E5E7EB;
 }
 
